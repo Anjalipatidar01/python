@@ -1,0 +1,14 @@
+a=20
+print("a=",a)
+b=5
+print("b=",b)
+c=a+b
+print("c=",c)
+d=a-b
+print("d=",d)
+e=a*b
+print("e=",e)
+f=a/b
+print("f=",f)
+g=a%b
+print("g=",g)
