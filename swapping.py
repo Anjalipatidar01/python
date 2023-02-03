@@ -5,12 +5,14 @@ b=5
 # a=b
 # b=temp
 # print(a,b)
+
 #without taking additional variable
 # print(a,b)
 # a=a+b
 # b=a-b
 # a=a-b
 # print(a,b)
+
 #python special
 print(a,b)
 a,b=b,a

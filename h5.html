@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	
+		<form action=""metthod ="get">
+
+
+
+	<!-- <input type="text" name="anjali" id="t1">  -->
+	<input type="text" name="user_name" id="t1"value="">
+	<input type="password" name="user_name_user_password" id="t2" value=""></input>
+	<button onclick="work()">
+	submit</button>
+
+<script type="text/javascript">
+	function work()
+		{
+			var name=document.getElementById('t1').value
+			var nam=document.getElementById('t2').value
+			if (name==""& nam=="") {
+				alert("please enter your name");
+			}
+			else{
+				alert(`name is ${name}`);
+			}
+		}
+	</script>
+</form>
+</body>
+</html>

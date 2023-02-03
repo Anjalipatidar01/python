@@ -1,7 +1,7 @@
 var1=open("intro2.py","a")
 var1.write("marks")
 var1.close()
-f=open("teliphon2.txt","w")
+f=open("teliphon2.txt","r")
 english=int(input("enter english marks:"))
 hindi=int(input("enter hindi marks:"))
 maths=int(input("enter maths marks:"))

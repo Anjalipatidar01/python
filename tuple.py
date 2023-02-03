@@ -7,4 +7,4 @@ for i in tuple1:
 	print("type=",type(i))
 	print("id=",id(i))
 tuple1.pop("anjali")
-    print(tuple1)	
+print(tuple1)	
